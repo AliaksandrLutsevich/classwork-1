@@ -1,0 +1,108 @@
+/* Default styles */
+
+body {
+    background: #ffffff;
+  }
+  
+  .wrapper {
+    position: relative;
+    height: 1100px;
+    width: 1100px;
+    margin: 0 auto;
+  }
+
+/* Circles basic style */
+
+  .circle {
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    background: #ee220c;
+    border-radius: 50%;
+  }
+
+/* Circles colors and position */
+
+  .circle-green {
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+  }
+
+  .circle-yellow {
+    position: absolute;
+    top: 0%;
+    right: 0%; 
+  }
+
+  .circle-blue {
+    position: absolute;
+    bottom: 0%;
+    left: 0%; 
+  }
+
+  .circle-black {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+
+  }
+
+/* Circles hovers */
+
+  .circle-green:hover {
+    z-index: 25;
+    background-color: green;
+    border-color: green;
+  }
+
+  .circle-blue:hover {
+    z-index: 25;
+    background-color: blue;
+    border-color: blue;
+  }
+ 
+  .circle-yellow:hover {
+    z-index: 25;
+    background-color: yellow;
+    border-color: yellow;
+
+  }
+
+.circle-black:hover {
+    z-index: 25;
+    background-color: black;
+    border-color: black;
+  }
+
+/* Square styles */
+
+  .bottom-square {
+    position: absolute;
+    top: 20%;
+    left:20%;
+    z-index: 10;
+    height: 60%;
+    width: 60%;
+    background-color: #00a2ff;
+  }
+
+  .top-square {
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    z-index: 15;
+    height: 30%;
+    width: 30%;
+    background-color: #f8ba00;
+    border-radius: 15%;
+  }
+
+/* Square hover */
+
+  .bottom-square:hover {
+    background-color: fuchsia;
+    border-color: fuchsia;
+    z-index: 20;
+  }
+
