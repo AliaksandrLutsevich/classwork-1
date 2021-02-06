@@ -24,28 +24,23 @@ body {
 /* Circles colors and position */
 
   .circle-green {
-    position: absolute;
-    top: 0%;
-    left: 0%; 
+    top: 3%;
+    left: 3%; 
   }
 
   .circle-yellow {
-    position: absolute;
-    top: 0%;
-    right: 0%; 
+    top: 3%;
+    right: 3%; 
   }
 
   .circle-blue {
-    position: absolute;
-    bottom: 0%;
-    left: 0%; 
+    bottom: 3%;
+    left: 3%; 
   }
 
   .circle-black {
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-
+    bottom: 3%;
+    right: 3%;
   }
 
 /* Circles hovers */
@@ -66,7 +61,6 @@ body {
     z-index: 25;
     background-color: yellow;
     border-color: yellow;
-
   }
 
 .circle-black:hover {
